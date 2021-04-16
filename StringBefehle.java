@@ -3,30 +3,40 @@ public class StringBefehle {
      * Die Methode gibt den String verdoppelt, also zweimal hintereinander zurueck
      */
     public static String duplicate(String in) {
+        // Erzeuge einen leeren Ausgabestring
         String out = "";
 
-        // Manipuliere den String
+        // Haenge zwei Mal den Eingabestring an
         out += in + " " + in;
 
+        // Gib den Ausgabestring zurueck
         return out;
     }
 
     /**
-     * Die Methode gibt den String Zeichen fuer Zeichen rueckwaerts zurueck
+     * Kopiere einen Eingabestring Zeichen fuer Zeichen mithilfe einer Schleife
      */
-    public static String reverse(String in) {
+    public static String copy(String in) {
+        // Erzeuge einen leeren Ausgabestring
         String out = "";
 
-        for (int i = in.length() - 1; i >= 0; i -= 1) {
-            out += in.charAt(i);
-        }
+        // Manipuliere den String
 
+        // Gib den Ausgabestring zurueck
         return out;
     }
 
-    // Schreiben Sie eine analoge Methode, jedes einzelne Zeichen in
-    // einen Grossbuchstaben wandelt und aneinander gehängt zurückgibt.
-    public static String upper(String in) {
-        return in.toUpperCase();
-    }
+    // Aufgaben
+    
+    /**
+     * Geben Sie den Eingabestring Zeichen fuer Zeichen rueckwaerts zurueck
+     */
+
+    
+    /**
+     * Schreiben Sie eine analoge Methode, die jedes einzelne Zeichen in
+     * einen Grossbuchstaben wandelt und aneinander gehaengt zurueckgibt.
+     * Tipp: Mit Charcter.toUpperCase(char c) kann man ein einzelnes Zeichen
+     * in einen Grossbuchstaben verwandeln
+     */
 }
