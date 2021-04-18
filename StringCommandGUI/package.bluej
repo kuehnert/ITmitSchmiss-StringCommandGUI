@@ -2,9 +2,9 @@
 dependency1.from=StringGUI
 dependency1.to=StringBefehle
 dependency1.type=UsesDependency
-editor.fx.0.height=1693
-editor.fx.0.width=1548
-editor.fx.0.x=1528
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=94
 objectbench.width=761
