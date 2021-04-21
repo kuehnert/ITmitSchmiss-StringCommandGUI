@@ -6,6 +6,7 @@ import java.awt.Font;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.Objects;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -145,8 +146,7 @@ public class StringGUI extends JFrame {
             }
         }
 
-        Arrays.sort(methods);
-        return methods;
+        return Arrays.stream(methods).filter(Objects::nonNull).sorted().toArray(String[]::new);
 
     }
 
