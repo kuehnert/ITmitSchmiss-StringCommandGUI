@@ -166,7 +166,7 @@ public class StringGUI extends JFrame {
             Method m = StringBefehle.class.getMethod(command, String.class);
             out = (String) m.invoke(null, in);
         } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
-            out = String.format("FEHLER beim Methodenaufruf von '%s'", command);
+            out = String.format("FEHLER beim Methodenaufruf von '%s'\nFehlerytp: " + e.getCause(), command);
         }
 
         taOutput.setText(out);
