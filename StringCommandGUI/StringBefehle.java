@@ -27,16 +27,15 @@ public class StringBefehle {
     }
 
     // Aufgaben
-    
+
     /**
      * Geben Sie den Eingabestring Zeichen fuer Zeichen rueckwaerts zurueck
      */
 
-    
+
     /**
-     * Schreiben Sie eine analoge Methode, die jedes einzelne Zeichen in
-     * einen Grossbuchstaben wandelt und aneinander gehaengt zurueckgibt.
-     * Tipp: Mit Charcter.toUpperCase(char c) kann man ein einzelnes Zeichen
-     * in einen Grossbuchstaben verwandeln
+     * Schreiben Sie eine analoge Methode, die jedes einzelne Zeichen in einen Grossbuchstaben
+     * wandelt und aneinander gehaengt zurueckgibt. Tipp: Mit Charcter.toUpperCase(char c) kann man
+     * ein einzelnes Zeichen in einen Grossbuchstaben verwandeln
      */
 }
